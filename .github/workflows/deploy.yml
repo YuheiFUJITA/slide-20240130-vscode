@@ -36,7 +36,7 @@ jobs:
         run: npm i -g @slidev/cli
 
       - name: Build
-        run: pnpm run build -- --base /slide-20240130-vscode/
+        run: pnpm run build --base /slide-20240130-vscode/
 
       - uses: actions/configure-pages@v4
 
